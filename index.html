@@ -607,7 +607,7 @@ footer {
       <li><a href="#experience">Experience</a></li>
       <li><a href="#articles">Writing</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="S.Willams-Resume.pdf" class="cta"><i class="fas fa-download"></i> Resume</a></li>
+      <li><a href="Shaquonna_Williams_Resume_MLSystems.pdf" class="cta"><i class="fas fa-download"></i> Resume</a></li>
     </ul>
     <button class="nav-ham" id="ham"><i class="fas fa-bars"></i></button>
   </div>
@@ -802,16 +802,17 @@ footer {
     <div class="exp-list reveal">
       <div class="exp-row">
         <div>
-          <div class="exp-period">May 2025 — Present</div>
-          <span class="exp-badge now">● Current</span>
+          <div class="exp-period">May 2025 — June 2026</div>
+          <span class="exp-badge">Engineering</span>
         </div>
         <div class="exp-body">
           <h3>Full-Stack Software Engineer</h3>
           <h4>Sadaora Inc. · Remote</h4>
           <ul>
-            <li>Deployed containerized microservices on GCP with Docker Compose, Nginx reverse proxy, and SSL/TLS — routing traffic across React frontend, FastAPI backend, and AI service endpoints.</li>
             <li>Architected a GPU-accelerated staging environment (NVIDIA L4) with automated scheduling, reducing infrastructure costs by 75% while maintaining team availability.</li>
-            <li>Resolved critical production failures — Docker network isolation, SSL certificate corruption, Nginx misconfigurations — ensuring zero-downtime deployments.</li>
+            <li>Diagnosed and recovered a broken NVIDIA driver/DKMS/CUDA stack after a GPU VM migration — rebuilding kernel modules and reconfiguring nvidia-container-toolkit to restore GPU passthrough for a self-hosted vLLM inference server, verified at 98–99% GPU utilization.</li>
+            <li>Tuned vLLM serving parameters for a Qwen2.5-7B-Instruct deployment — scaling from 1 to 2 NVIDIA L4 GPUs with tensor parallelism, tripling max context length (9K → 32K tokens) and expanding concurrent request capacity ~10x via KV-cache and batching tuning.</li>
+            <li>Deployed containerized microservices on GCP with Docker Compose, Nginx reverse proxy, and SSL/TLS — routing traffic across React frontend, FastAPI backend, and AI service endpoints.</li>
             <li>Built a secure API gateway with configurable rate limiting (10–100 req/s) and comprehensive security headers (HSTS, CSP, X-Frame-Options).</li>
           </ul>
         </div>
@@ -868,23 +869,33 @@ footer {
     <h2 class="sec-title reveal">Technical <em>articles.</em></h2>
     <p class="sec-sub reveal">Sharing insights on modern JavaScript patterns and web development best practices.</p>
     <div class="articles-grid reveal">
+      <a href="https://www.linkedin.com/pulse/power-empirical-ml-research-why-experimentation-drives-williams-elb5e" target="_blank" class="art-tile">
+        <div class="art-n">01 / MACHINE LEARNING</div>
+        <h3>The Power of Empirical ML Research, Why Experimentation Drives Real Progress.</h3>
+        <p>Where curiosity meets code and innovation becomes unstoppable.</p>
+      </a>
+      <a href="https://www.linkedin.com/pulse/mastering-complexity-how-problem-decomposition-fuels-system-williams-2kqbe" target="_blank" class="art-tile">
+        <div class="art-n">02 / CRITICAL THINKING</div>
+        <h3>Mastering Complexity: How Problem Decomposition Fuels Scalable System Design.</h3>
+        <p>Where problem decomposition becomes a superpower.</p>
+      </a>
       <a href="https://www.linkedin.com/pulse/mastering-javascript-asynchronous-handling-asyncawait-williams-lpwae" target="_blank" class="art-tile">
-        <div class="art-n">01 / JAVASCRIPT</div>
+        <div class="art-n">03 / JAVASCRIPT</div>
         <h3>Mastering Asynchronous Handling with Async/Await</h3>
         <p>Deep dive into modern async patterns and how async/await simplifies complex operations.</p>
       </a>
       <a href="https://www.linkedin.com/pulse/mastering-javascript-tofixed-vs-toprecision-which-should-williams" target="_blank" class="art-tile">
-        <div class="art-n">02 / JAVASCRIPT</div>
+        <div class="art-n">04 / JAVASCRIPT</div>
         <h3>toFixed() vs toPrecision() — Which Should You Use?</h3>
         <p>A practical breakdown of JavaScript number formatting methods and when to use each.</p>
       </a>
       <a href="https://www.linkedin.com/pulse/mastering-javascript-jsonstringify-vs-jsonparse-part-1-williams" target="_blank" class="art-tile">
-        <div class="art-n">03 / JAVASCRIPT</div>
+        <div class="art-n">05 / JAVASCRIPT</div>
         <h3>Mastering JSON.stringify() vs JSON.parse() — Part I</h3>
         <p>Understanding JavaScript's core JSON methods with real-world use cases.</p>
       </a>
       <a href="https://www.linkedin.com/pulse/copy-mastering-javascript-jsonstringify-vs-jsonparse-williams-f3xre" target="_blank" class="art-tile">
-        <div class="art-n">04 / JAVASCRIPT</div>
+        <div class="art-n">06 / JAVASCRIPT</div>
         <h3>Mastering JSON.stringify() vs JSON.parse() — Part II</h3>
         <p>Advanced use cases, performance considerations, and implementation strategies.</p>
       </a>
@@ -923,7 +934,7 @@ footer {
         <i class="fas fa-phone"></i>
         <div><div class="c-label">Phone</div><div class="c-val">(443) 599-2756</div></div>
       </a>
-      <a href="S.Willams-Resume.pdf" class="c-link">
+      <a href="Shaquonna_Williams_Resume_MLSystems.pdf" class="c-link">
         <i class="fas fa-file-pdf"></i>
         <div><div class="c-label">Resume</div><div class="c-val">Download PDF</div></div>
       </a>
@@ -933,7 +944,7 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <span class="foot-copy">© 2026 Shaquonna Williams · Baltimore, MD</span>
+  <span class="foot-copy">© 2026 Shaquonna Williams · Created with ❤️ in Baltimore, MD</span>
   <div class="foot-soc">
     <a href="https://github.com/Quonnaq0711" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://www.linkedin.com/in/swilliams5425" target="_blank"><i class="fab fa-linkedin"></i></a>
